@@ -1,1 +1,12 @@
 # SNHUCS255
+## Module 8 Questions  
+---
+### Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+- What did you do particularly well?
+   I believe that I was able to translate some of the gruntwork programming I've done in the past to a cohesive package that a manager or other non technical user would be able to understand.
+- If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+   I would revise the Sequence Diagram of Module 7 because I believe there are some gaps that can be filled in. For instance I don't think I made it clear what happens if a payment was successful I also didn't account for error messages, or for a payment method being declined by stripe for a variety of reasons(fraud alert, lack of funds etc).
+- How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+  I believe the first step in successful software design is considering the users needs and all the ways that they will fail to use the system "properly". No one can find an edge case like a customer. Simplicity to the maximum is how a good interface is designed. If they're ever on a page and confused about what to do or what the next steps are, the software has failed and they might as well mail a check to your competitor. Designers, Engineers, and Managers all play a role in ensuring a user is not confused by how they're supposed to use your application. This is one reason Odeysee( a video streaming platform similiar to youtube ) will go out of business, the interface is trash because it is confusing. 
+- How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+  I think it depends on the circumstance. If I'm adding a feature, I'm interested in detailing inputs and outputs that already exist then determining what wheels I don't want to reinvent. If I'm building something from the ground up, broad strokes and fat markers first. The moment you get a chance to delegate something to a specialist, do so. Then continue drawing in broad strokes. Iterating further and further down to the level of objects, if you're applying OOP. Each broad stroke drawing can be the beginning of a new chapter of subsequently more finer detailed iterations of the original idea.
